@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use RTLReviewBench, please cite the paper below."
+title: "RTLReviewBench"
+type: dataset
+authors:
+  - family-names: Mahmud
+    given-names: Yasir
+    affiliation: University of Florida
+version: "1.0.0"
+date-released: 2026-11-10
+license: MIT
+keywords:
+  - RTL
+  - Verilog
+  - code review
+  - LLM evaluation
+  - hardware verification
+  - benchmark
+repository-code: "https://github.com/yasirmahmud/RTLReviewBench"
+preferred-citation:
+  type: article
+  title: "RTLReviewBench: LLM Hardware Reviewers Rarely Miss Bugs but Routinely Reject Correct RTL"
+  authors:
+    - family-names: Mahmud
+      given-names: Yasir
+      affiliation: University of Florida
+  year: 2026
+  journal: "arXiv preprint"
+  # identifiers:
+  #   - type: other
+  #     value: "arXiv:XXXX.XXXXX"   # TODO: set after arXiv submission

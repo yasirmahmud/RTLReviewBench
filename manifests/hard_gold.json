@@ -1,0 +1,1058 @@
+[
+  {
+    "case_id": "C003",
+    "pair_id": "P002",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "base_design_id": "Prob002",
+    "is_sequential": true,
+    "upstream_task_id": "Prob002_extraneous_items_sequence_detect",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "ddd33288a61757ad0cca7a6a34395a22b1d823c6bd59f78cf5c7bd72404d7012",
+    "candidate_sha256": "535599a0b585d4d180bbeb9c0bc0573ee7a8403ba7c86656efcc945153e74193",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\arithmetic__Prob002_extraneous_items_sequence_detect_buggy.log",
+        "results_v2\\verification\\arithmetic__Prob002_extraneous_items_sequence_detect_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C004",
+    "pair_id": "P002",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "base_design_id": "Prob002",
+    "is_sequential": true,
+    "upstream_task_id": "Prob002_extraneous_items_sequence_detect",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "ddd33288a61757ad0cca7a6a34395a22b1d823c6bd59f78cf5c7bd72404d7012",
+    "candidate_sha256": "7995f42b964410b83d38a3b75fbe495b4d0ff703e71def5436b7c8eb94eabd72",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\arithmetic__Prob002_extraneous_items_sequence_detect_buggy.log",
+        "results_v2\\verification\\arithmetic__Prob002_extraneous_items_sequence_detect_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C019",
+    "pair_id": "P010",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "base_design_id": "Prob033",
+    "is_sequential": true,
+    "upstream_task_id": "Prob033_traffic_lights",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "a56b946a1a2eb0daa3dff6fea6c431c0237ef45870b15eb4b611864077df1fa9",
+    "candidate_sha256": "26b273ca4017024fca276a44064a5145f62d87cc0a2a83eabf463bb75d6caf82",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\arithmetic__Prob033_traffic_lights_buggy.log",
+        "results_v2\\verification\\arithmetic__Prob033_traffic_lights_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C020",
+    "pair_id": "P010",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "base_design_id": "Prob033",
+    "is_sequential": true,
+    "upstream_task_id": "Prob033_traffic_lights",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "a56b946a1a2eb0daa3dff6fea6c431c0237ef45870b15eb4b611864077df1fa9",
+    "candidate_sha256": "f75fafa2c44ab804af079ddbf4cffc37fb1cbd03c7b252b8f0ca4e89cdc472e9",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\arithmetic__Prob033_traffic_lights_buggy.log",
+        "results_v2\\verification\\arithmetic__Prob033_traffic_lights_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C023",
+    "pair_id": "P012",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "base_design_id": "Prob003",
+    "is_sequential": true,
+    "upstream_task_id": "Prob003_non-overlapping_sequence_detect",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "543b783c38c706cf60889f79f2c512f90b108daca5d187c8efe3ff71d86b3b32",
+    "candidate_sha256": "e475412c59008552489b8f05e058c9861f3320752644dcd584c1e3cea6cb30a2",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\assignment__Prob003_non-overlapping_sequence_detect_buggy.log",
+        "results_v2\\verification\\assignment__Prob003_non-overlapping_sequence_detect_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C024",
+    "pair_id": "P012",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "base_design_id": "Prob003",
+    "is_sequential": true,
+    "upstream_task_id": "Prob003_non-overlapping_sequence_detect",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "543b783c38c706cf60889f79f2c512f90b108daca5d187c8efe3ff71d86b3b32",
+    "candidate_sha256": "b4ddaef8d635e12d28dfeebd3f14250997f3bea648b7ef0d9180ef1788d2e8fc",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\assignment__Prob003_non-overlapping_sequence_detect_buggy.log",
+        "results_v2\\verification\\assignment__Prob003_non-overlapping_sequence_detect_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C025",
+    "pair_id": "P013",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "base_design_id": "Prob004",
+    "is_sequential": true,
+    "upstream_task_id": "Prob004_continuous_input_sequence_detect2",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "a2c5981eddbd0190296547cd44a89cea31c7f3080529f6cbc11b82663b453d47",
+    "candidate_sha256": "9212c64d7370cacbd1365a6e688b09fbbc8a532d7ae3b5b66dda413ea9bb1878",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\assignment__Prob004_continuous_input_sequence_detect2_buggy.log",
+        "results_v2\\verification\\assignment__Prob004_continuous_input_sequence_detect2_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C026",
+    "pair_id": "P013",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "base_design_id": "Prob004",
+    "is_sequential": true,
+    "upstream_task_id": "Prob004_continuous_input_sequence_detect2",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "a2c5981eddbd0190296547cd44a89cea31c7f3080529f6cbc11b82663b453d47",
+    "candidate_sha256": "4958e45c1c9d79d9df56f1b8921c7630b7a502ee070d93a590c064e5d0a4cbee",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\assignment__Prob004_continuous_input_sequence_detect2_buggy.log",
+        "results_v2\\verification\\assignment__Prob004_continuous_input_sequence_detect2_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C031",
+    "pair_id": "P016",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "base_design_id": "Prob026",
+    "is_sequential": true,
+    "upstream_task_id": "Prob026_simple_stopwatch",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "4242d2d083c8d9662a5604faae9dc23cd28a19eafc0e18866e3a5f48c6c5d402",
+    "candidate_sha256": "5c7e3bfdc022720e34ea7e426c658ff06ef159f559371a265b0754647a2d5474",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\assignment__Prob026_simple_stopwatch_buggy.log",
+        "results_v2\\verification\\assignment__Prob026_simple_stopwatch_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C032",
+    "pair_id": "P016",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "base_design_id": "Prob026",
+    "is_sequential": true,
+    "upstream_task_id": "Prob026_simple_stopwatch",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "4242d2d083c8d9662a5604faae9dc23cd28a19eafc0e18866e3a5f48c6c5d402",
+    "candidate_sha256": "bed655607793077fb2b042fb32233ae622d7793d4e197048e42ef4b24a0132e4",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\assignment__Prob026_simple_stopwatch_buggy.log",
+        "results_v2\\verification\\assignment__Prob026_simple_stopwatch_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C033",
+    "pair_id": "P017",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "base_design_id": "Prob027",
+    "is_sequential": true,
+    "upstream_task_id": "Prob027_settable_counter",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "a82adfab239a765ab12e7b7f12f5439064700fd3adf781eaa1389751d4c7d56f",
+    "candidate_sha256": "3b2d3b5af0bd56e34712e05b469c9e31b324e061efcd9b7cb6f6851f7b901cfc",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\assignment__Prob027_settable_counter_buggy.log",
+        "results_v2\\verification\\assignment__Prob027_settable_counter_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C034",
+    "pair_id": "P017",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "base_design_id": "Prob027",
+    "is_sequential": true,
+    "upstream_task_id": "Prob027_settable_counter",
+    "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+    "spec_sha256": "a82adfab239a765ab12e7b7f12f5439064700fd3adf781eaa1389751d4c7d56f",
+    "candidate_sha256": "3883e37460f743eec5119f9353351252ed42de94362d2b0fe4dfcf5f1e073763",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\assignment__Prob027_settable_counter_buggy.log",
+        "results_v2\\verification\\assignment__Prob027_settable_counter_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C107",
+    "pair_id": "P054",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob063_review2015_shiftcount",
+    "is_sequential": true,
+    "upstream_task_id": "Prob063_review2015_shiftcount",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "e150a58704522d937cefbbae44e79b259635aafaafd9e90c46efd32c75a8e414",
+    "candidate_sha256": "a657fdcae85df586c095050e7078df8c84aff2ff668a1bde561d44bfe97c442a",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob063_review2015_shiftcount_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob063_review2015_shiftcount_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C108",
+    "pair_id": "P054",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob063_review2015_shiftcount",
+    "is_sequential": true,
+    "upstream_task_id": "Prob063_review2015_shiftcount",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "e150a58704522d937cefbbae44e79b259635aafaafd9e90c46efd32c75a8e414",
+    "candidate_sha256": "386557b58689a792e0aa95461420a14276c0dfd5f2e3e8d510dfcc2eef3179f7",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob063_review2015_shiftcount_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob063_review2015_shiftcount_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C119",
+    "pair_id": "P060",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob070_ece241_2013_q2",
+    "is_sequential": false,
+    "upstream_task_id": "Prob070_ece241_2013_q2",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "0ecdc930e8c326c644b660cea71b8f1988e3d4f96a88b9056319811a5aed7894",
+    "candidate_sha256": "d9288ebe508e45f94e438d9e1a25054e42b7bd7b7726f25d961c61cac617ad76",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob070_ece241_2013_q2_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob070_ece241_2013_q2_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C120",
+    "pair_id": "P060",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob070_ece241_2013_q2",
+    "is_sequential": false,
+    "upstream_task_id": "Prob070_ece241_2013_q2",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "0ecdc930e8c326c644b660cea71b8f1988e3d4f96a88b9056319811a5aed7894",
+    "candidate_sha256": "165574ed56fd5f7beea8618f7a65484d768e3267d42976cfe11d775e2825305e",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob070_ece241_2013_q2_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob070_ece241_2013_q2_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C139",
+    "pair_id": "P070",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob084_ece241_2013_q12",
+    "is_sequential": true,
+    "upstream_task_id": "Prob084_ece241_2013_q12",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "e6ef3aa8e7c73f6d66ed6f5ff1c15fba956da4a5b89994a784472c459453a16a",
+    "candidate_sha256": "ab1e308eb83905725e8daa9d04a802eac9e64a90dee405027c921eb7bdca81f1",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob084_ece241_2013_q12_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob084_ece241_2013_q12_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C140",
+    "pair_id": "P070",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob084_ece241_2013_q12",
+    "is_sequential": true,
+    "upstream_task_id": "Prob084_ece241_2013_q12",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "e6ef3aa8e7c73f6d66ed6f5ff1c15fba956da4a5b89994a784472c459453a16a",
+    "candidate_sha256": "b3bfacc5b5696cdaa78319b6cc3cb597d63aaf4964c3ae6e843eef4b3d3cb716",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob084_ece241_2013_q12_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob084_ece241_2013_q12_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C145",
+    "pair_id": "P073",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob088_ece241_2014_q5b",
+    "is_sequential": true,
+    "upstream_task_id": "Prob088_ece241_2014_q5b",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "9169d7c1e7f00acd8c5bd449a81deed14ab836e58139d035618990a759452c5e",
+    "candidate_sha256": "9a9fc8db45aaf1c13a3902158e9d968455dd6b4cbec1cf233b71a20d5e3e6f7b",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob088_ece241_2014_q5b_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob088_ece241_2014_q5b_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C146",
+    "pair_id": "P073",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob088_ece241_2014_q5b",
+    "is_sequential": true,
+    "upstream_task_id": "Prob088_ece241_2014_q5b",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "9169d7c1e7f00acd8c5bd449a81deed14ab836e58139d035618990a759452c5e",
+    "candidate_sha256": "8c3917e943a1495bbdb97ed89f49e3224025e1ff92fe8101644064754b38dbab",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob088_ece241_2014_q5b_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob088_ece241_2014_q5b_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C151",
+    "pair_id": "P076",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob093_ece241_2014_q3",
+    "is_sequential": false,
+    "upstream_task_id": "Prob093_ece241_2014_q3",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "3e17061ce1088e9224ed73dda1ea3d7fdaa476e16edaea7959d8a054b99a90ec",
+    "candidate_sha256": "ad5e67c9bac0ebaa7712636ca940f967a4387ccf988d6e54267421cf64b806c2",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob093_ece241_2014_q3_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob093_ece241_2014_q3_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C152",
+    "pair_id": "P076",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob093_ece241_2014_q3",
+    "is_sequential": false,
+    "upstream_task_id": "Prob093_ece241_2014_q3",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "3e17061ce1088e9224ed73dda1ea3d7fdaa476e16edaea7959d8a054b99a90ec",
+    "candidate_sha256": "ee826f93a22f8309bd694f8c24083f15b3e4d26aad4daa87f019dfd5a590d848",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob093_ece241_2014_q3_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob093_ece241_2014_q3_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C175",
+    "pair_id": "P088",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob108_rule90",
+    "is_sequential": true,
+    "upstream_task_id": "Prob108_rule90",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "6f6736be93c8d77502134a4d89bdb6f9401095ec1808e6cb352cf4698a01bad9",
+    "candidate_sha256": "12063d93a2ba45b8fe1b2079deac7f84a96011b81447936aa655b6566bd8dd55",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob108_rule90_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob108_rule90_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C176",
+    "pair_id": "P088",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob108_rule90",
+    "is_sequential": true,
+    "upstream_task_id": "Prob108_rule90",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "6f6736be93c8d77502134a4d89bdb6f9401095ec1808e6cb352cf4698a01bad9",
+    "candidate_sha256": "10441eba70335d3a8cccea2e25eaa054b72657756531eb5554779d3d75767508",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob108_rule90_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob108_rule90_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C183",
+    "pair_id": "P092",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob112_always_case2",
+    "is_sequential": false,
+    "upstream_task_id": "Prob112_always_case2",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "3401d2ead92b3b309b0a3647da1ea1e91bf44e60488052d042863cdba293e1f9",
+    "candidate_sha256": "aa192bcaf30b0ed29ec0a8fc0952ea8f4650f57abbd9be52bd46fa0c2a9b2f5e",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob112_always_case2_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob112_always_case2_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C184",
+    "pair_id": "P092",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob112_always_case2",
+    "is_sequential": false,
+    "upstream_task_id": "Prob112_always_case2",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "3401d2ead92b3b309b0a3647da1ea1e91bf44e60488052d042863cdba293e1f9",
+    "candidate_sha256": "d0f84cfd6bbe52952d08860b7580f3157d473531f9cc0e0772522f0cf3f26c58",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob112_always_case2_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob112_always_case2_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C187",
+    "pair_id": "P094",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob116_m2014_q3",
+    "is_sequential": false,
+    "upstream_task_id": "Prob116_m2014_q3",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "486260a66b0e3c09a7e111fe322049def7c2bce2957d412468c968fc181369d9",
+    "candidate_sha256": "0de3fefa0431979449cee8706f760d6d8119ed6bf34549bcfd75efec4b06e391",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob116_m2014_q3_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob116_m2014_q3_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C188",
+    "pair_id": "P094",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob116_m2014_q3",
+    "is_sequential": false,
+    "upstream_task_id": "Prob116_m2014_q3",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "486260a66b0e3c09a7e111fe322049def7c2bce2957d412468c968fc181369d9",
+    "candidate_sha256": "46de1799ecbce0fe77fa913d2a59eab17eb22e0a99321eb9c67f4ea568f508e9",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob116_m2014_q3_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob116_m2014_q3_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C195",
+    "pair_id": "P098",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob121_2014_q3bfsm",
+    "is_sequential": true,
+    "upstream_task_id": "Prob121_2014_q3bfsm",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "7ef3daaa030210774641eca2e0a44ab8db1e0413e9345d3dadfa04c296a44587",
+    "candidate_sha256": "a149d5ba75f53af68d6506fda8b7590f6a4d4c0970ba8e19a98c5948a872c1c0",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob121_2014_q3bfsm_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob121_2014_q3bfsm_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C196",
+    "pair_id": "P098",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob121_2014_q3bfsm",
+    "is_sequential": true,
+    "upstream_task_id": "Prob121_2014_q3bfsm",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "7ef3daaa030210774641eca2e0a44ab8db1e0413e9345d3dadfa04c296a44587",
+    "candidate_sha256": "e9594ffb6223c0a901a3c6723253c08c5e8306ee3726b9d14c388cfff0bfc812",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob121_2014_q3bfsm_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob121_2014_q3bfsm_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C199",
+    "pair_id": "P100",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob124_rule110",
+    "is_sequential": true,
+    "upstream_task_id": "Prob124_rule110",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "717633876fc56011d31cb8514acfe026740223fd48fc4fc97890174c64ab9521",
+    "candidate_sha256": "60ffb6f0ff86e635bc9193001e3b3ba22c5f42e562e8e9bbd8a5b3462423efc1",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob124_rule110_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob124_rule110_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C200",
+    "pair_id": "P100",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob124_rule110",
+    "is_sequential": true,
+    "upstream_task_id": "Prob124_rule110",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "717633876fc56011d31cb8514acfe026740223fd48fc4fc97890174c64ab9521",
+    "candidate_sha256": "0f914e3f699b8ea029955440184daf4f85dc1894852a048e5c6eb52c5dca72de",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob124_rule110_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob124_rule110_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C203",
+    "pair_id": "P102",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob127_lemmings1",
+    "is_sequential": true,
+    "upstream_task_id": "Prob127_lemmings1",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "2fdc4c225052adcbf751390bc53dc6f845820deb7c25c9e9dcba94b1969075ff",
+    "candidate_sha256": "87c6011a561ff333fb23ec9f0841f1c2203f8f123abf60f4b0ec04f82e9627ac",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob127_lemmings1_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob127_lemmings1_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C204",
+    "pair_id": "P102",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob127_lemmings1",
+    "is_sequential": true,
+    "upstream_task_id": "Prob127_lemmings1",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "2fdc4c225052adcbf751390bc53dc6f845820deb7c25c9e9dcba94b1969075ff",
+    "candidate_sha256": "801f63cf303e941db54cbfc1ac10e69f43c3d6c15ec5de11418d61f5f8de23d5",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob127_lemmings1_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob127_lemmings1_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C209",
+    "pair_id": "P105",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob136_m2014_q6",
+    "is_sequential": true,
+    "upstream_task_id": "Prob136_m2014_q6",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "d2a54df7ab3ab31b8643656ecf7b18688bf8cae019deca7a018308d3eb7fafbb",
+    "candidate_sha256": "5ad457db0d48159bac085645546614f8a11d87ad043d03b1e1279fbf39a06ee2",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob136_m2014_q6_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob136_m2014_q6_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C210",
+    "pair_id": "P105",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob136_m2014_q6",
+    "is_sequential": true,
+    "upstream_task_id": "Prob136_m2014_q6",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "d2a54df7ab3ab31b8643656ecf7b18688bf8cae019deca7a018308d3eb7fafbb",
+    "candidate_sha256": "ad0457cec14098fc1c987705332be2c8426920f93b8bec69c36ce99be8f9635f",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob136_m2014_q6_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob136_m2014_q6_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C229",
+    "pair_id": "P115",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob148_2013_q2afsm",
+    "is_sequential": true,
+    "upstream_task_id": "Prob148_2013_q2afsm",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "61881b28125f8f3e419daae0c0de35e9c09681c444c85cf800253103c6ffe212",
+    "candidate_sha256": "9769eab20428c356cea3fd98df50cd9cc4b497eb7483c638108ddb80e201f9d3",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob148_2013_q2afsm_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob148_2013_q2afsm_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C230",
+    "pair_id": "P115",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob148_2013_q2afsm",
+    "is_sequential": true,
+    "upstream_task_id": "Prob148_2013_q2afsm",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "61881b28125f8f3e419daae0c0de35e9c09681c444c85cf800253103c6ffe212",
+    "candidate_sha256": "88e8d83f1856ef340713b47c374b8a3a669f38d5f0de98495fa6c75694c671fd",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob148_2013_q2afsm_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob148_2013_q2afsm_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C235",
+    "pair_id": "P118",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob153_gshare",
+    "is_sequential": true,
+    "upstream_task_id": "Prob153_gshare",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "12566ccfb0d44ba3beba2ea1c6b98c340541bee3fad8ec5c2e42968f5437e3de",
+    "candidate_sha256": "871e298c8573e75ac01e9752ca25b094fdf1f461d36253ee2d5c86887044faf8",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob153_gshare_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob153_gshare_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C236",
+    "pair_id": "P118",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob153_gshare",
+    "is_sequential": true,
+    "upstream_task_id": "Prob153_gshare",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "12566ccfb0d44ba3beba2ea1c6b98c340541bee3fad8ec5c2e42968f5437e3de",
+    "candidate_sha256": "f402c66b44720d23fbb42926a444ff987db40654447dc4dd36fed7d85f0a7af5",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob153_gshare_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob153_gshare_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C237",
+    "pair_id": "P119",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob154_fsm_ps2data",
+    "is_sequential": true,
+    "upstream_task_id": "Prob154_fsm_ps2data",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "ce035c02ea7116b0c7f97ecfc6622c3ffa6f6d195a3d050b35edda98a08cecfd",
+    "candidate_sha256": "e5ba17abf4e4a2fedc33b6dfb0c404b77ab89b1c8994750412abde2b0c116534",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob154_fsm_ps2data_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob154_fsm_ps2data_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C238",
+    "pair_id": "P119",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob154_fsm_ps2data",
+    "is_sequential": true,
+    "upstream_task_id": "Prob154_fsm_ps2data",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "ce035c02ea7116b0c7f97ecfc6622c3ffa6f6d195a3d050b35edda98a08cecfd",
+    "candidate_sha256": "b2d8d431fcbcf891e11f59da7b06db89ddbe966cc43710b59fc6fe536d386497",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob154_fsm_ps2data_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob154_fsm_ps2data_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C239",
+    "pair_id": "P120",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob155_lemmings4",
+    "is_sequential": true,
+    "upstream_task_id": "Prob155_lemmings4",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "d84384e592186bb15f28ef92e4e8476ceca5530ad74ab9604a2233cd40fbfa23",
+    "candidate_sha256": "7da67433e971cb1fc04cd9a4f389df1bf318a2e09801c7bea37ce6cec655cd96",
+    "candidate_role": "buggy",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob155_lemmings4_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob155_lemmings4_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  },
+  {
+    "case_id": "C240",
+    "pair_id": "P120",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "base_design_id": "Prob155_lemmings4",
+    "is_sequential": true,
+    "upstream_task_id": "Prob155_lemmings4",
+    "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+    "spec_sha256": "d84384e592186bb15f28ef92e4e8476ceca5530ad74ab9604a2233cd40fbfa23",
+    "candidate_sha256": "34107c5decdd78b57b781de4486b3f5e98dbd4907ee531d50ba552a44ea061dc",
+    "candidate_role": "correct",
+    "truth_basis": "upstream_reference_plus_regression",
+    "verification": {
+      "tool": "Icarus Verilog 11.0",
+      "faulty_test_result": "fail",
+      "fixed_test_result": "pass",
+      "log_paths": [
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob155_lemmings4_base_1_buggy.log",
+        "results_v2\\verification\\rtlrepairbench__realbug_Prob155_lemmings4_base_1_ref.log"
+      ]
+    },
+    "clean_logic": true
+  }
+]

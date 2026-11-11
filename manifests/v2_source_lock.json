@@ -1,0 +1,47 @@
+{
+  "benchmark_track": "v2_multisource",
+  "date_locked": "2026-11-10",
+  "deduplicate_policy": "strict_one_pair_per_unique_design",
+  "sources": [
+    {
+      "dataset_source": "ChipBench",
+      "repository_url": "https://github.com/zhongkaiyu/ChipBench",
+      "source_commit": "b4ba3a06759804ec88c26c3cf15b28b9a90b3443",
+      "license": "MIT",
+      "specification_dir": "Verilog Gen/dataset_self_contain",
+      "subdirs_locked": [
+        "Verilog Debugging/dataset_debug_zero_shot_state_machine",
+        "Verilog Debugging/dataset_debug_zero_shot_timing",
+        "Verilog Debugging/dataset_debug_zero_shot_arithmetic",
+        "Verilog Debugging/dataset_debug_zero_shot_assignment"
+      ],
+      "excluded_defective_or_mismatched_oracles": [
+        "Prob005_signal_generator",
+        "Prob006_data_serial-to-parallel_circuit",
+        "Prob007_data_accumulation_output",
+        "Prob015_vending_machine2",
+        "Prob023_gray_code_counter",
+        "Prob030_simple_implementation_RAM"
+      ]
+    },
+    {
+      "dataset_source": "RTLRepairBench",
+      "local_checkout": "external/RTLRepairBench",
+      "source_commit": "17709198a89344c25e8ac78f119a9d29b06d29e9",
+      "license": "Apache-2.0 (snapshot) / MIT (VerilogEval tasks)",
+      "files_locked": [
+        "data/repairbench_realbugs.jsonl",
+        "data/eval_tasks.jsonl"
+      ]
+    }
+  ],
+  "environment": {
+    "os": "Windows",
+    "python_version": "3.13.14",
+    "simulator": "Icarus Verilog",
+    "simulator_version": "11.0 (stable)",
+    "iverilog_path": "D:\\LintFix\\RTLFixer\\.conda\\Library\\bin\\iverilog.exe",
+    "vvp_path": "D:\\LintFix\\RTLFixer\\.conda\\Library\\bin\\vvp.exe"
+  }
+}
+

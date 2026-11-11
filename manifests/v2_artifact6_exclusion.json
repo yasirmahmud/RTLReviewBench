@@ -1,0 +1,109 @@
+{
+  "excluded_pairs": [
+    "P018",
+    "P020",
+    "P022",
+    "P028",
+    "P047",
+    "P084"
+  ],
+  "reason_summary": "Six upstream pairs (12 cases) whose Icarus Verilog 11.0 mismatch reflects simulator time-0/initial or #delay artifacts rather than synthesizable functional logic defects (reports/v2_oracle_audit.md).",
+  "cases": [
+    {
+      "case_id": "C035",
+      "pair_id": "P018",
+      "candidate_role": "buggy",
+      "upstream_task_id": "Prob005_notgate",
+      "category": "inertial_delay",
+      "reason": "Explicit #10 inertial delay vs 5ps TB clock half-period"
+    },
+    {
+      "case_id": "C036",
+      "pair_id": "P018",
+      "candidate_role": "correct",
+      "upstream_task_id": "Prob005_notgate",
+      "category": "inertial_delay",
+      "reason": "Explicit #10 inertial delay vs 5ps TB clock half-period"
+    },
+    {
+      "case_id": "C039",
+      "pair_id": "P020",
+      "candidate_role": "buggy",
+      "upstream_task_id": "Prob008_m2014_q4h",
+      "category": "time0_always_star",
+      "reason": "always @(*) omits continuous-assignment t=0 delta event in Icarus Verilog"
+    },
+    {
+      "case_id": "C040",
+      "pair_id": "P020",
+      "candidate_role": "correct",
+      "upstream_task_id": "Prob008_m2014_q4h",
+      "category": "time0_always_star",
+      "reason": "always @(*) omits continuous-assignment t=0 delta event in Icarus Verilog"
+    },
+    {
+      "case_id": "C043",
+      "pair_id": "P022",
+      "candidate_role": "correct",
+      "upstream_task_id": "Prob010_mt2015_q4a",
+      "category": "inertial_delay",
+      "reason": "Explicit #10 inertial delay vs 5ps TB clock half-period"
+    },
+    {
+      "case_id": "C044",
+      "pair_id": "P022",
+      "candidate_role": "buggy",
+      "upstream_task_id": "Prob010_mt2015_q4a",
+      "category": "inertial_delay",
+      "reason": "Explicit #10 inertial delay vs 5ps TB clock half-period"
+    },
+    {
+      "case_id": "C055",
+      "pair_id": "P028",
+      "candidate_role": "buggy",
+      "upstream_task_id": "Prob020_mt2015_eq2",
+      "category": "inertial_delay",
+      "reason": "Explicit #5 inertial delay vs 5ps TB clock half-period"
+    },
+    {
+      "case_id": "C056",
+      "pair_id": "P028",
+      "candidate_role": "correct",
+      "upstream_task_id": "Prob020_mt2015_eq2",
+      "category": "inertial_delay",
+      "reason": "Explicit #5 inertial delay vs 5ps TB clock half-period"
+    },
+    {
+      "case_id": "C093",
+      "pair_id": "P047",
+      "candidate_role": "correct",
+      "upstream_task_id": "Prob053_m2014_q4d",
+      "category": "non_synth_initial",
+      "reason": "Upstream RefModule uses non-synthesizable initial out=0 without spec reset"
+    },
+    {
+      "case_id": "C094",
+      "pair_id": "P047",
+      "candidate_role": "buggy",
+      "upstream_task_id": "Prob053_m2014_q4d",
+      "category": "non_synth_initial",
+      "reason": "Upstream RefModule uses non-synthesizable initial out=0 without spec reset"
+    },
+    {
+      "case_id": "C167",
+      "pair_id": "P084",
+      "candidate_role": "buggy",
+      "upstream_task_id": "Prob104_mt2015_muxdff",
+      "category": "non_synth_initial",
+      "reason": "Upstream RefModule uses non-synthesizable initial Q=0 without spec reset"
+    },
+    {
+      "case_id": "C168",
+      "pair_id": "P084",
+      "candidate_role": "correct",
+      "upstream_task_id": "Prob104_mt2015_muxdff",
+      "category": "non_synth_initial",
+      "reason": "Upstream RefModule uses non-synthesizable initial Q=0 without spec reset"
+    }
+  ]
+}

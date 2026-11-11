@@ -1,0 +1,2402 @@
+[
+  {
+    "query_id": "PW_P001_FWD",
+    "pair_id": "P001",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob001_continuous_input_sequence_detect"
+  },
+  {
+    "query_id": "PW_P001_REV",
+    "pair_id": "P001",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob001_continuous_input_sequence_detect"
+  },
+  {
+    "query_id": "PW_P002_FWD",
+    "pair_id": "P002",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob002_extraneous_items_sequence_detect"
+  },
+  {
+    "query_id": "PW_P002_REV",
+    "pair_id": "P002",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob002_extraneous_items_sequence_detect"
+  },
+  {
+    "query_id": "PW_P003_FWD",
+    "pair_id": "P003",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob008_non-integer_data_width_conversion_24to128"
+  },
+  {
+    "query_id": "PW_P003_REV",
+    "pair_id": "P003",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob008_non-integer_data_width_conversion_24to128"
+  },
+  {
+    "query_id": "PW_P004_FWD",
+    "pair_id": "P004",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob009_non-integer_data_width_conversion_8to12"
+  },
+  {
+    "query_id": "PW_P004_REV",
+    "pair_id": "P004",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob009_non-integer_data_width_conversion_8to12"
+  },
+  {
+    "query_id": "PW_P005_FWD",
+    "pair_id": "P005",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob010_integer_multiple_data_bit_width_conversion_8to16"
+  },
+  {
+    "query_id": "PW_P005_REV",
+    "pair_id": "P005",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob010_integer_multiple_data_bit_width_conversion_8to16"
+  },
+  {
+    "query_id": "PW_P006_FWD",
+    "pair_id": "P006",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob014_sequence_generator"
+  },
+  {
+    "query_id": "PW_P006_REV",
+    "pair_id": "P006",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob014_sequence_generator"
+  },
+  {
+    "query_id": "PW_P007_FWD",
+    "pair_id": "P007",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob028_up_and_down_counter"
+  },
+  {
+    "query_id": "PW_P007_REV",
+    "pair_id": "P007",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob028_up_and_down_counter"
+  },
+  {
+    "query_id": "PW_P008_FWD",
+    "pair_id": "P008",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob031_johnson_counter"
+  },
+  {
+    "query_id": "PW_P008_REV",
+    "pair_id": "P008",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob031_johnson_counter"
+  },
+  {
+    "query_id": "PW_P009_FWD",
+    "pair_id": "P009",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob032_pipeline_multiplier"
+  },
+  {
+    "query_id": "PW_P009_REV",
+    "pair_id": "P009",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob032_pipeline_multiplier"
+  },
+  {
+    "query_id": "PW_P010_FWD",
+    "pair_id": "P010",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob033_traffic_lights"
+  },
+  {
+    "query_id": "PW_P010_REV",
+    "pair_id": "P010",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob033_traffic_lights"
+  },
+  {
+    "query_id": "PW_P011_FWD",
+    "pair_id": "P011",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob034_gaming_machine_billing_program"
+  },
+  {
+    "query_id": "PW_P011_REV",
+    "pair_id": "P011",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "arithmetic",
+    "is_sequential": true,
+    "upstream_task_id": "Prob034_gaming_machine_billing_program"
+  },
+  {
+    "query_id": "PW_P012_FWD",
+    "pair_id": "P012",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob003_non-overlapping_sequence_detect"
+  },
+  {
+    "query_id": "PW_P012_REV",
+    "pair_id": "P012",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob003_non-overlapping_sequence_detect"
+  },
+  {
+    "query_id": "PW_P013_FWD",
+    "pair_id": "P013",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob004_continuous_input_sequence_detect2"
+  },
+  {
+    "query_id": "PW_P013_REV",
+    "pair_id": "P013",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob004_continuous_input_sequence_detect2"
+  },
+  {
+    "query_id": "PW_P014_FWD",
+    "pair_id": "P014",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob012_state_machine_overlapping_sequence_detection"
+  },
+  {
+    "query_id": "PW_P014_REV",
+    "pair_id": "P014",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob012_state_machine_overlapping_sequence_detection"
+  },
+  {
+    "query_id": "PW_P015_FWD",
+    "pair_id": "P015",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob020_write_state_machine_two_stage"
+  },
+  {
+    "query_id": "PW_P015_REV",
+    "pair_id": "P015",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob020_write_state_machine_two_stage"
+  },
+  {
+    "query_id": "PW_P016_FWD",
+    "pair_id": "P016",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob026_simple_stopwatch"
+  },
+  {
+    "query_id": "PW_P016_REV",
+    "pair_id": "P016",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob026_simple_stopwatch"
+  },
+  {
+    "query_id": "PW_P017_FWD",
+    "pair_id": "P017",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob027_settable_counter"
+  },
+  {
+    "query_id": "PW_P017_REV",
+    "pair_id": "P017",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "ChipBench",
+    "category": "assignment",
+    "is_sequential": true,
+    "upstream_task_id": "Prob027_settable_counter"
+  },
+  {
+    "query_id": "PW_P018_FWD",
+    "pair_id": "P018",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob005_notgate"
+  },
+  {
+    "query_id": "PW_P018_REV",
+    "pair_id": "P018",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob005_notgate"
+  },
+  {
+    "query_id": "PW_P019_FWD",
+    "pair_id": "P019",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob006_vectorr"
+  },
+  {
+    "query_id": "PW_P019_REV",
+    "pair_id": "P019",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob006_vectorr"
+  },
+  {
+    "query_id": "PW_P020_FWD",
+    "pair_id": "P020",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob008_m2014_q4h"
+  },
+  {
+    "query_id": "PW_P020_REV",
+    "pair_id": "P020",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob008_m2014_q4h"
+  },
+  {
+    "query_id": "PW_P021_FWD",
+    "pair_id": "P021",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob009_popcount3"
+  },
+  {
+    "query_id": "PW_P021_REV",
+    "pair_id": "P021",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob009_popcount3"
+  },
+  {
+    "query_id": "PW_P022_FWD",
+    "pair_id": "P022",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob010_mt2015_q4a"
+  },
+  {
+    "query_id": "PW_P022_REV",
+    "pair_id": "P022",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob010_mt2015_q4a"
+  },
+  {
+    "query_id": "PW_P023_FWD",
+    "pair_id": "P023",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob012_xnorgate"
+  },
+  {
+    "query_id": "PW_P023_REV",
+    "pair_id": "P023",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob012_xnorgate"
+  },
+  {
+    "query_id": "PW_P024_FWD",
+    "pair_id": "P024",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob013_m2014_q4e"
+  },
+  {
+    "query_id": "PW_P024_REV",
+    "pair_id": "P024",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob013_m2014_q4e"
+  },
+  {
+    "query_id": "PW_P025_FWD",
+    "pair_id": "P025",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob015_vector1"
+  },
+  {
+    "query_id": "PW_P025_REV",
+    "pair_id": "P025",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob015_vector1"
+  },
+  {
+    "query_id": "PW_P026_FWD",
+    "pair_id": "P026",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob016_m2014_q4j"
+  },
+  {
+    "query_id": "PW_P026_REV",
+    "pair_id": "P026",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob016_m2014_q4j"
+  },
+  {
+    "query_id": "PW_P027_FWD",
+    "pair_id": "P027",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob019_m2014_q4f"
+  },
+  {
+    "query_id": "PW_P027_REV",
+    "pair_id": "P027",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob019_m2014_q4f"
+  },
+  {
+    "query_id": "PW_P028_FWD",
+    "pair_id": "P028",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob020_mt2015_eq2"
+  },
+  {
+    "query_id": "PW_P028_REV",
+    "pair_id": "P028",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob020_mt2015_eq2"
+  },
+  {
+    "query_id": "PW_P029_FWD",
+    "pair_id": "P029",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob023_vector100r"
+  },
+  {
+    "query_id": "PW_P029_REV",
+    "pair_id": "P029",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob023_vector100r"
+  },
+  {
+    "query_id": "PW_P030_FWD",
+    "pair_id": "P030",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob028_m2014_q4a"
+  },
+  {
+    "query_id": "PW_P030_REV",
+    "pair_id": "P030",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob028_m2014_q4a"
+  },
+  {
+    "query_id": "PW_P031_FWD",
+    "pair_id": "P031",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob029_m2014_q4g"
+  },
+  {
+    "query_id": "PW_P031_REV",
+    "pair_id": "P031",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob029_m2014_q4g"
+  },
+  {
+    "query_id": "PW_P032_FWD",
+    "pair_id": "P032",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob031_dff"
+  },
+  {
+    "query_id": "PW_P032_REV",
+    "pair_id": "P032",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob031_dff"
+  },
+  {
+    "query_id": "PW_P033_FWD",
+    "pair_id": "P033",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob033_ece241_2014_q1c"
+  },
+  {
+    "query_id": "PW_P033_REV",
+    "pair_id": "P033",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob033_ece241_2014_q1c"
+  },
+  {
+    "query_id": "PW_P034_FWD",
+    "pair_id": "P034",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob035_count1to10"
+  },
+  {
+    "query_id": "PW_P034_REV",
+    "pair_id": "P034",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob035_count1to10"
+  },
+  {
+    "query_id": "PW_P035_FWD",
+    "pair_id": "P035",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob036_ringer"
+  },
+  {
+    "query_id": "PW_P035_REV",
+    "pair_id": "P035",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob036_ringer"
+  },
+  {
+    "query_id": "PW_P036_FWD",
+    "pair_id": "P036",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob037_review2015_count1k"
+  },
+  {
+    "query_id": "PW_P036_REV",
+    "pair_id": "P036",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob037_review2015_count1k"
+  },
+  {
+    "query_id": "PW_P037_FWD",
+    "pair_id": "P037",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob038_count15"
+  },
+  {
+    "query_id": "PW_P037_REV",
+    "pair_id": "P037",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob038_count15"
+  },
+  {
+    "query_id": "PW_P038_FWD",
+    "pair_id": "P038",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob040_count10"
+  },
+  {
+    "query_id": "PW_P038_REV",
+    "pair_id": "P038",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob040_count10"
+  },
+  {
+    "query_id": "PW_P039_FWD",
+    "pair_id": "P039",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob041_dff8r"
+  },
+  {
+    "query_id": "PW_P039_REV",
+    "pair_id": "P039",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob041_dff8r"
+  },
+  {
+    "query_id": "PW_P040_FWD",
+    "pair_id": "P040",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob043_vector5"
+  },
+  {
+    "query_id": "PW_P040_REV",
+    "pair_id": "P040",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob043_vector5"
+  },
+  {
+    "query_id": "PW_P041_FWD",
+    "pair_id": "P041",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob045_edgedetect2"
+  },
+  {
+    "query_id": "PW_P041_REV",
+    "pair_id": "P041",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob045_edgedetect2"
+  },
+  {
+    "query_id": "PW_P042_FWD",
+    "pair_id": "P042",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob046_dff8p"
+  },
+  {
+    "query_id": "PW_P042_REV",
+    "pair_id": "P042",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob046_dff8p"
+  },
+  {
+    "query_id": "PW_P043_FWD",
+    "pair_id": "P043",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob047_dff8ar"
+  },
+  {
+    "query_id": "PW_P043_REV",
+    "pair_id": "P043",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob047_dff8ar"
+  },
+  {
+    "query_id": "PW_P044_FWD",
+    "pair_id": "P044",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob048_m2014_q4c"
+  },
+  {
+    "query_id": "PW_P044_REV",
+    "pair_id": "P044",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob048_m2014_q4c"
+  },
+  {
+    "query_id": "PW_P045_FWD",
+    "pair_id": "P045",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": true,
+    "upstream_task_id": "Prob049_m2014_q4b"
+  },
+  {
+    "query_id": "PW_P045_REV",
+    "pair_id": "P045",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": true,
+    "upstream_task_id": "Prob049_m2014_q4b"
+  },
+  {
+    "query_id": "PW_P046_FWD",
+    "pair_id": "P046",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob050_kmap1"
+  },
+  {
+    "query_id": "PW_P046_REV",
+    "pair_id": "P046",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob050_kmap1"
+  },
+  {
+    "query_id": "PW_P047_FWD",
+    "pair_id": "P047",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob053_m2014_q4d"
+  },
+  {
+    "query_id": "PW_P047_REV",
+    "pair_id": "P047",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob053_m2014_q4d"
+  },
+  {
+    "query_id": "PW_P048_FWD",
+    "pair_id": "P048",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob054_edgedetect"
+  },
+  {
+    "query_id": "PW_P048_REV",
+    "pair_id": "P048",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob054_edgedetect"
+  },
+  {
+    "query_id": "PW_P049_FWD",
+    "pair_id": "P049",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob056_ece241_2013_q7"
+  },
+  {
+    "query_id": "PW_P049_REV",
+    "pair_id": "P049",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob056_ece241_2013_q7"
+  },
+  {
+    "query_id": "PW_P050_FWD",
+    "pair_id": "P050",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob057_kmap2"
+  },
+  {
+    "query_id": "PW_P050_REV",
+    "pair_id": "P050",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob057_kmap2"
+  },
+  {
+    "query_id": "PW_P051_FWD",
+    "pair_id": "P051",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob058_alwaysblock2"
+  },
+  {
+    "query_id": "PW_P051_REV",
+    "pair_id": "P051",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob058_alwaysblock2"
+  },
+  {
+    "query_id": "PW_P052_FWD",
+    "pair_id": "P052",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob060_m2014_q4k"
+  },
+  {
+    "query_id": "PW_P052_REV",
+    "pair_id": "P052",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob060_m2014_q4k"
+  },
+  {
+    "query_id": "PW_P053_FWD",
+    "pair_id": "P053",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob061_2014_q4a"
+  },
+  {
+    "query_id": "PW_P053_REV",
+    "pair_id": "P053",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob061_2014_q4a"
+  },
+  {
+    "query_id": "PW_P054_FWD",
+    "pair_id": "P054",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob063_review2015_shiftcount"
+  },
+  {
+    "query_id": "PW_P054_REV",
+    "pair_id": "P054",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob063_review2015_shiftcount"
+  },
+  {
+    "query_id": "PW_P055_FWD",
+    "pair_id": "P055",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob064_vector3"
+  },
+  {
+    "query_id": "PW_P055_REV",
+    "pair_id": "P055",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob064_vector3"
+  },
+  {
+    "query_id": "PW_P056_FWD",
+    "pair_id": "P056",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob066_edgecapture"
+  },
+  {
+    "query_id": "PW_P056_REV",
+    "pair_id": "P056",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob066_edgecapture"
+  },
+  {
+    "query_id": "PW_P057_FWD",
+    "pair_id": "P057",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob067_countslow"
+  },
+  {
+    "query_id": "PW_P057_REV",
+    "pair_id": "P057",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob067_countslow"
+  },
+  {
+    "query_id": "PW_P058_FWD",
+    "pair_id": "P058",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob068_countbcd"
+  },
+  {
+    "query_id": "PW_P058_REV",
+    "pair_id": "P058",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob068_countbcd"
+  },
+  {
+    "query_id": "PW_P059_FWD",
+    "pair_id": "P059",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob069_truthtable1"
+  },
+  {
+    "query_id": "PW_P059_REV",
+    "pair_id": "P059",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob069_truthtable1"
+  },
+  {
+    "query_id": "PW_P060_FWD",
+    "pair_id": "P060",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob070_ece241_2013_q2"
+  },
+  {
+    "query_id": "PW_P060_REV",
+    "pair_id": "P060",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob070_ece241_2013_q2"
+  },
+  {
+    "query_id": "PW_P061_FWD",
+    "pair_id": "P061",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob072_thermostat"
+  },
+  {
+    "query_id": "PW_P061_REV",
+    "pair_id": "P061",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob072_thermostat"
+  },
+  {
+    "query_id": "PW_P062_FWD",
+    "pair_id": "P062",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob073_dff16e"
+  },
+  {
+    "query_id": "PW_P062_REV",
+    "pair_id": "P062",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob073_dff16e"
+  },
+  {
+    "query_id": "PW_P063_FWD",
+    "pair_id": "P063",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob074_ece241_2014_q4"
+  },
+  {
+    "query_id": "PW_P063_REV",
+    "pair_id": "P063",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob074_ece241_2014_q4"
+  },
+  {
+    "query_id": "PW_P064_FWD",
+    "pair_id": "P064",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob077_wire_decl"
+  },
+  {
+    "query_id": "PW_P064_REV",
+    "pair_id": "P064",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob077_wire_decl"
+  },
+  {
+    "query_id": "PW_P065_FWD",
+    "pair_id": "P065",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob078_dualedge"
+  },
+  {
+    "query_id": "PW_P065_REV",
+    "pair_id": "P065",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob078_dualedge"
+  },
+  {
+    "query_id": "PW_P066_FWD",
+    "pair_id": "P066",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob079_fsm3onehot"
+  },
+  {
+    "query_id": "PW_P066_REV",
+    "pair_id": "P066",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob079_fsm3onehot"
+  },
+  {
+    "query_id": "PW_P067_FWD",
+    "pair_id": "P067",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob080_timer"
+  },
+  {
+    "query_id": "PW_P067_REV",
+    "pair_id": "P067",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob080_timer"
+  },
+  {
+    "query_id": "PW_P068_FWD",
+    "pair_id": "P068",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob082_lfsr32"
+  },
+  {
+    "query_id": "PW_P068_REV",
+    "pair_id": "P068",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob082_lfsr32"
+  },
+  {
+    "query_id": "PW_P069_FWD",
+    "pair_id": "P069",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob083_mt2015_q4b"
+  },
+  {
+    "query_id": "PW_P069_REV",
+    "pair_id": "P069",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob083_mt2015_q4b"
+  },
+  {
+    "query_id": "PW_P070_FWD",
+    "pair_id": "P070",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob084_ece241_2013_q12"
+  },
+  {
+    "query_id": "PW_P070_REV",
+    "pair_id": "P070",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob084_ece241_2013_q12"
+  },
+  {
+    "query_id": "PW_P071_FWD",
+    "pair_id": "P071",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob085_shift4"
+  },
+  {
+    "query_id": "PW_P071_REV",
+    "pair_id": "P071",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob085_shift4"
+  },
+  {
+    "query_id": "PW_P072_FWD",
+    "pair_id": "P072",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob086_lfsr5"
+  },
+  {
+    "query_id": "PW_P072_REV",
+    "pair_id": "P072",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob086_lfsr5"
+  },
+  {
+    "query_id": "PW_P073_FWD",
+    "pair_id": "P073",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob088_ece241_2014_q5b"
+  },
+  {
+    "query_id": "PW_P073_REV",
+    "pair_id": "P073",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob088_ece241_2014_q5b"
+  },
+  {
+    "query_id": "PW_P074_FWD",
+    "pair_id": "P074",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob090_circuit1"
+  },
+  {
+    "query_id": "PW_P074_REV",
+    "pair_id": "P074",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob090_circuit1"
+  },
+  {
+    "query_id": "PW_P075_FWD",
+    "pair_id": "P075",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob091_2012_q2b"
+  },
+  {
+    "query_id": "PW_P075_REV",
+    "pair_id": "P075",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob091_2012_q2b"
+  },
+  {
+    "query_id": "PW_P076_FWD",
+    "pair_id": "P076",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob093_ece241_2014_q3"
+  },
+  {
+    "query_id": "PW_P076_REV",
+    "pair_id": "P076",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob093_ece241_2014_q3"
+  },
+  {
+    "query_id": "PW_P077_FWD",
+    "pair_id": "P077",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob095_review2015_fsmshift"
+  },
+  {
+    "query_id": "PW_P077_REV",
+    "pair_id": "P077",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob095_review2015_fsmshift"
+  },
+  {
+    "query_id": "PW_P078_FWD",
+    "pair_id": "P078",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob096_review2015_fsmseq"
+  },
+  {
+    "query_id": "PW_P078_REV",
+    "pair_id": "P078",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob096_review2015_fsmseq"
+  },
+  {
+    "query_id": "PW_P079_FWD",
+    "pair_id": "P079",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob098_circuit7"
+  },
+  {
+    "query_id": "PW_P079_REV",
+    "pair_id": "P079",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob098_circuit7"
+  },
+  {
+    "query_id": "PW_P080_FWD",
+    "pair_id": "P080",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob100_fsm3comb"
+  },
+  {
+    "query_id": "PW_P080_REV",
+    "pair_id": "P080",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob100_fsm3comb"
+  },
+  {
+    "query_id": "PW_P081_FWD",
+    "pair_id": "P081",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob101_circuit4"
+  },
+  {
+    "query_id": "PW_P081_REV",
+    "pair_id": "P081",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob101_circuit4"
+  },
+  {
+    "query_id": "PW_P082_FWD",
+    "pair_id": "P082",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob102_circuit3"
+  },
+  {
+    "query_id": "PW_P082_REV",
+    "pair_id": "P082",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob102_circuit3"
+  },
+  {
+    "query_id": "PW_P083_FWD",
+    "pair_id": "P083",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob103_circuit2"
+  },
+  {
+    "query_id": "PW_P083_REV",
+    "pair_id": "P083",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob103_circuit2"
+  },
+  {
+    "query_id": "PW_P084_FWD",
+    "pair_id": "P084",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob104_mt2015_muxdff"
+  },
+  {
+    "query_id": "PW_P084_REV",
+    "pair_id": "P084",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob104_mt2015_muxdff"
+  },
+  {
+    "query_id": "PW_P085_FWD",
+    "pair_id": "P085",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob105_rotate100"
+  },
+  {
+    "query_id": "PW_P085_REV",
+    "pair_id": "P085",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob105_rotate100"
+  },
+  {
+    "query_id": "PW_P086_FWD",
+    "pair_id": "P086",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob106_always_nolatches"
+  },
+  {
+    "query_id": "PW_P086_REV",
+    "pair_id": "P086",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": false,
+    "upstream_task_id": "Prob106_always_nolatches"
+  },
+  {
+    "query_id": "PW_P087_FWD",
+    "pair_id": "P087",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob107_fsm1s"
+  },
+  {
+    "query_id": "PW_P087_REV",
+    "pair_id": "P087",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob107_fsm1s"
+  },
+  {
+    "query_id": "PW_P088_FWD",
+    "pair_id": "P088",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob108_rule90"
+  },
+  {
+    "query_id": "PW_P088_REV",
+    "pair_id": "P088",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob108_rule90"
+  },
+  {
+    "query_id": "PW_P089_FWD",
+    "pair_id": "P089",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob109_fsm1"
+  },
+  {
+    "query_id": "PW_P089_REV",
+    "pair_id": "P089",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob109_fsm1"
+  },
+  {
+    "query_id": "PW_P090_FWD",
+    "pair_id": "P090",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": true,
+    "upstream_task_id": "Prob110_fsm2"
+  },
+  {
+    "query_id": "PW_P090_REV",
+    "pair_id": "P090",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_tuned",
+    "is_sequential": true,
+    "upstream_task_id": "Prob110_fsm2"
+  },
+  {
+    "query_id": "PW_P091_FWD",
+    "pair_id": "P091",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob111_fsm2s"
+  },
+  {
+    "query_id": "PW_P091_REV",
+    "pair_id": "P091",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob111_fsm2s"
+  },
+  {
+    "query_id": "PW_P092_FWD",
+    "pair_id": "P092",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob112_always_case2"
+  },
+  {
+    "query_id": "PW_P092_REV",
+    "pair_id": "P092",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob112_always_case2"
+  },
+  {
+    "query_id": "PW_P093_FWD",
+    "pair_id": "P093",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob113_2012_q1g"
+  },
+  {
+    "query_id": "PW_P093_REV",
+    "pair_id": "P093",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob113_2012_q1g"
+  },
+  {
+    "query_id": "PW_P094_FWD",
+    "pair_id": "P094",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob116_m2014_q3"
+  },
+  {
+    "query_id": "PW_P094_REV",
+    "pair_id": "P094",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob116_m2014_q3"
+  },
+  {
+    "query_id": "PW_P095_FWD",
+    "pair_id": "P095",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob117_circuit9"
+  },
+  {
+    "query_id": "PW_P095_REV",
+    "pair_id": "P095",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob117_circuit9"
+  },
+  {
+    "query_id": "PW_P096_FWD",
+    "pair_id": "P096",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob119_fsm3"
+  },
+  {
+    "query_id": "PW_P096_REV",
+    "pair_id": "P096",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob119_fsm3"
+  },
+  {
+    "query_id": "PW_P097_FWD",
+    "pair_id": "P097",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob120_fsm3s"
+  },
+  {
+    "query_id": "PW_P097_REV",
+    "pair_id": "P097",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob120_fsm3s"
+  },
+  {
+    "query_id": "PW_P098_FWD",
+    "pair_id": "P098",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob121_2014_q3bfsm"
+  },
+  {
+    "query_id": "PW_P098_REV",
+    "pair_id": "P098",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob121_2014_q3bfsm"
+  },
+  {
+    "query_id": "PW_P099_FWD",
+    "pair_id": "P099",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob122_kmap4"
+  },
+  {
+    "query_id": "PW_P099_REV",
+    "pair_id": "P099",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob122_kmap4"
+  },
+  {
+    "query_id": "PW_P100_FWD",
+    "pair_id": "P100",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob124_rule110"
+  },
+  {
+    "query_id": "PW_P100_REV",
+    "pair_id": "P100",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob124_rule110"
+  },
+  {
+    "query_id": "PW_P101_FWD",
+    "pair_id": "P101",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob125_kmap3"
+  },
+  {
+    "query_id": "PW_P101_REV",
+    "pair_id": "P101",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob125_kmap3"
+  },
+  {
+    "query_id": "PW_P102_FWD",
+    "pair_id": "P102",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob127_lemmings1"
+  },
+  {
+    "query_id": "PW_P102_REV",
+    "pair_id": "P102",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob127_lemmings1"
+  },
+  {
+    "query_id": "PW_P103_FWD",
+    "pair_id": "P103",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob129_ece241_2013_q8"
+  },
+  {
+    "query_id": "PW_P103_REV",
+    "pair_id": "P103",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob129_ece241_2013_q8"
+  },
+  {
+    "query_id": "PW_P104_FWD",
+    "pair_id": "P104",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob133_2014_q3fsm"
+  },
+  {
+    "query_id": "PW_P104_REV",
+    "pair_id": "P104",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob133_2014_q3fsm"
+  },
+  {
+    "query_id": "PW_P105_FWD",
+    "pair_id": "P105",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob136_m2014_q6"
+  },
+  {
+    "query_id": "PW_P105_REV",
+    "pair_id": "P105",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob136_m2014_q6"
+  },
+  {
+    "query_id": "PW_P106_FWD",
+    "pair_id": "P106",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob137_fsm_serial"
+  },
+  {
+    "query_id": "PW_P106_REV",
+    "pair_id": "P106",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob137_fsm_serial"
+  },
+  {
+    "query_id": "PW_P107_FWD",
+    "pair_id": "P107",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob138_2012_q2fsm"
+  },
+  {
+    "query_id": "PW_P107_REV",
+    "pair_id": "P107",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob138_2012_q2fsm"
+  },
+  {
+    "query_id": "PW_P108_FWD",
+    "pair_id": "P108",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob139_2013_q2bfsm"
+  },
+  {
+    "query_id": "PW_P108_REV",
+    "pair_id": "P108",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob139_2013_q2bfsm"
+  },
+  {
+    "query_id": "PW_P109_FWD",
+    "pair_id": "P109",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob140_fsm_hdlc"
+  },
+  {
+    "query_id": "PW_P109_REV",
+    "pair_id": "P109",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob140_fsm_hdlc"
+  },
+  {
+    "query_id": "PW_P110_FWD",
+    "pair_id": "P110",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob142_lemmings2"
+  },
+  {
+    "query_id": "PW_P110_REV",
+    "pair_id": "P110",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob142_lemmings2"
+  },
+  {
+    "query_id": "PW_P111_FWD",
+    "pair_id": "P111",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob143_fsm_onehot"
+  },
+  {
+    "query_id": "PW_P111_REV",
+    "pair_id": "P111",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob143_fsm_onehot"
+  },
+  {
+    "query_id": "PW_P112_FWD",
+    "pair_id": "P112",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob145_circuit8"
+  },
+  {
+    "query_id": "PW_P112_REV",
+    "pair_id": "P112",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob145_circuit8"
+  },
+  {
+    "query_id": "PW_P113_FWD",
+    "pair_id": "P113",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob146_fsm_serialdata"
+  },
+  {
+    "query_id": "PW_P113_REV",
+    "pair_id": "P113",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob146_fsm_serialdata"
+  },
+  {
+    "query_id": "PW_P114_FWD",
+    "pair_id": "P114",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob147_circuit10"
+  },
+  {
+    "query_id": "PW_P114_REV",
+    "pair_id": "P114",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob147_circuit10"
+  },
+  {
+    "query_id": "PW_P115_FWD",
+    "pair_id": "P115",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob148_2013_q2afsm"
+  },
+  {
+    "query_id": "PW_P115_REV",
+    "pair_id": "P115",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob148_2013_q2afsm"
+  },
+  {
+    "query_id": "PW_P116_FWD",
+    "pair_id": "P116",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob150_review2015_fsmonehot"
+  },
+  {
+    "query_id": "PW_P116_REV",
+    "pair_id": "P116",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": false,
+    "upstream_task_id": "Prob150_review2015_fsmonehot"
+  },
+  {
+    "query_id": "PW_P117_FWD",
+    "pair_id": "P117",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob152_lemmings3"
+  },
+  {
+    "query_id": "PW_P117_REV",
+    "pair_id": "P117",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob152_lemmings3"
+  },
+  {
+    "query_id": "PW_P118_FWD",
+    "pair_id": "P118",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob153_gshare"
+  },
+  {
+    "query_id": "PW_P118_REV",
+    "pair_id": "P118",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob153_gshare"
+  },
+  {
+    "query_id": "PW_P119_FWD",
+    "pair_id": "P119",
+    "direction": "FWD",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob154_fsm_ps2data"
+  },
+  {
+    "query_id": "PW_P119_REV",
+    "pair_id": "P119",
+    "direction": "REV",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob154_fsm_ps2data"
+  },
+  {
+    "query_id": "PW_P120_FWD",
+    "pair_id": "P120",
+    "direction": "FWD",
+    "gold_choice": "A",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob155_lemmings4"
+  },
+  {
+    "query_id": "PW_P120_REV",
+    "pair_id": "P120",
+    "direction": "REV",
+    "gold_choice": "B",
+    "dataset_source": "RTLRepairBench",
+    "category": "realbug_base",
+    "is_sequential": true,
+    "upstream_task_id": "Prob155_lemmings4"
+  }
+]

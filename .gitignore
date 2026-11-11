@@ -1,0 +1,74 @@
+# Environment & API keys
+.env
+*.env
+
+# Upstream checkouts
+external/
+
+# Blinded human baseline answer key (keep ignored until scored)
+human_baseline/key.json
+
+# Pilot-era simulation/raw artifacts (keep ignored; release results_v2/ and results_ext/)
+results/
+results_clarified/
+test_sim_tmp/
+wave.vcd
+*.vvp
+*.vcd
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+
+# Not part of the public artifact
+Similar Works/
+.vscode/
+RTLReviewBench_Pilot_Agent_Instructions.md
+reports/paper_review_unresolved.md
+reports/paper_improvement_plan.md
+
+# LaTeX build products (main.pdf is kept)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+
+# Kept locally, not part of the minimal public release
+.github/
+docs/
+hf/
+human_baseline/
+paper/
+reports/
+reports_clarified/
+reports_v2/
+results_cli/
+results_v2/mock/
+results_v2/verification/
+results_ext/syn_verification/
+configs/pilot.yaml
+configs/clarified_50.yaml
+manifests/pilot_*
+manifests/clarified_*
+manifests/eligible_cases.jsonl
+manifests/source_lock.json
+manifests/v2_eligible_cases.jsonl
+rtlreviewbench/discover.py
+rtlreviewbench/select.py
+rtlreviewbench/validate.py
+scripts/*
+!scripts/run_extensions.py
+!scripts/evaluate_extensions.py
+tests/test_human_kit.py
+tests/test_selector.py
+rtlreviewbench/report.py

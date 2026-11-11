@@ -1,0 +1,77 @@
+seed: 20261110
+num_pairs: 120
+total_cases: 240
+track: "v2_multisource"
+
+sources:
+  - name: "ChipBench"
+    type: "chipbench"
+    repo_url: "https://github.com/zhongkaiyu/ChipBench"
+    commit: "b4ba3a06759804ec88c26c3cf15b28b9a90b3443"
+    license: "MIT"
+    path: "external/ChipBench"
+    clarified_spec_dir: "Verilog Gen/dataset_self_contain"
+    subdirs:
+      - "Verilog Debugging/dataset_debug_zero_shot_state_machine"
+      - "Verilog Debugging/dataset_debug_zero_shot_timing"
+      - "Verilog Debugging/dataset_debug_zero_shot_arithmetic"
+      - "Verilog Debugging/dataset_debug_zero_shot_assignment"
+    require_sequential: true
+    exclude_tasks:
+      - "Prob005_signal_generator"
+      - "Prob006_data_serial-to-parallel_circuit"
+      - "Prob007_data_accumulation_output"
+      - "Prob015_vending_machine2"
+      - "Prob023_gray_code_counter"
+      - "Prob030_simple_implementation_RAM"
+
+  - name: "RTLRepairBench"
+    type: "rtlrepairbench_realbugs"
+    repo_url: "local:external/RTLRepairBench"
+    commit: "17709198a89344c25e8ac78f119a9d29b06d29e9"
+    license: "Apache-2.0 (snapshot) / MIT (VerilogEval tasks)"
+    realbugs_path: "external/RTLRepairBench/data/repairbench_realbugs.jsonl"
+    eval_tasks_path: "external/RTLRepairBench/data/eval_tasks.jsonl"
+    require_sequential: false
+    exclude_tasks: []
+
+validation:
+  simulator: "iverilog"
+  runtime: "vvp"
+  iverilog_flags: ["-Wall", "-Winfloop", "-Wno-timescale", "-g2012", "-s", "tb"]
+  require_behavioral: true
+  require_sequential: false
+  truth_basis: "upstream_reference_plus_regression"
+
+selection_policy:
+  deduplicate_base_design: true
+  order: "canonical_id"
+
+paths:
+  manifest_dir: "manifests"
+  results_dir: "results_v2"
+  reports_dir: "reports_v2"
+  source_lock: "manifests/v2_source_lock.json"
+  eligible_cases: "manifests/v2_eligible_cases.jsonl"
+  pilot_gold: "manifests/v2_gold.json"
+  pilot_public: "manifests/v2_public.jsonl"
+
+models:
+  mock:
+    provider: "mock"
+    behavior: "abstain"
+    smoke_test_only: true
+  gemini-3.8-flash:
+    provider: "openai_compatible"
+    model_id: "gemini-3.8-flash"
+    temperature: 0.0
+  gpt-4.1-mini:
+    provider: "openai_compatible"
+    model_id: "gpt-4.1-mini"
+    temperature: 0.0
+  claude-haiku-5.5:
+    provider: "openai_compatible"
+    model_id: "claude-haiku-5.5"
+    temperature: 0.0
+    max_tokens: 16384
+
